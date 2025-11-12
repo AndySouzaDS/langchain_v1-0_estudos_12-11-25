@@ -1,0 +1,13 @@
+# Instalar LangChain v1.0 e dependências
+langchain==1.0.0
+langchain-groq
+langchain-openai  # Caso queira usar OpenAI
+langchain-anthropic  # Caso queira usar Anthropic
+langchain-tavily
+langgraph
+python-dotenv
+
+# Ferramentas úteis
+ipython  # Python interativo melhorado
+black  # Formatador de código
+pytest  # Para testes
