@@ -1,3 +1,6 @@
+# pastas
+/analises_projetos
+
 # Python
 __pycache__/
 *.py[cod]
