@@ -33,7 +33,7 @@ print(response.content)
 print(f"ID: {response.id}")                       # ID único da mensagem
 print(f"Metadata: {response.response_metadata}")  # Informações do provider
 
-
+# Output:
 # Tipo: <class 'langchain_core.messages.ai.AIMessage'>
 # Role: ai
 # Conteúdo: A capital da França é Paris.
