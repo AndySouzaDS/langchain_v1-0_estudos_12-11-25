@@ -21,7 +21,7 @@ messages = [
 # invoke() - faz a requisição e espera resposta completa
 response = model.invoke(messages)
 
-# responde - é um objeto AIMessage (não dict!)
+# response - é um objeto AIMessage (não dict!)
 print(f"Tipo: {type(response)}")                  # <class 'langchain_core.message.ai.AIMessage>
 print(f"Role: {response.type}")                   # 'ai' (equivalente a 'assistant')
 print(f"Conteúdo: {response.content}")            # "A capital da França é Paris."
