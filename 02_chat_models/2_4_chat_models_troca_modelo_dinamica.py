@@ -1,5 +1,12 @@
 # 📝 EXERCÍCIO GUIADO
 # Objetivo: Criar uma função que permite trocar de modelo dinamicamente durante uma conversa, mantendo o histórico.
+
+# Por que isso funciona:
+# 1. Histórico persistente: `messages` é mantida mesmo quando trocamos modelo
+# 2. Portabilidade: Qualquer modelo pode ler o mesmo histórico
+# 3. Modularização: Funções separadas para cada responsabilidade
+# 4. UX clara: Usuário sempre sabe qual modelo está respondendo
+
 ## Passo 1: Estrutura básica
 from langchain.chat_models import init_chat_model
 from dotenv import load_dotenv
